@@ -48,7 +48,7 @@
                           <div class="col-lg-7 col-md-8 hidden-sm ">
                     <nav class="cl-menu">
                         <ul>
-                            <li><a href="<?php echo home_url("nosotros"); ?> " class="hvr-underline-from-center"><span class="hvr-underline-from-center"></span>INICIO</a></li>
+                            <li><a href="<?php echo home_url(""); ?> " class="hvr-underline-from-center"><span class="hvr-underline-from-center"></span>INICIO</a></li>
                             <li><a href="<?php echo home_url("nosotros"); ?> " class="hvr-underline-from-center"><span class="hvr-underline-from-center"></span>NOSOTROS</a></li>
                             <li><a href="<?php echo home_url("beneficios"); ?> " class="hvr-underline-from-center"><span class="icon-suitcase"></span>BENEFICIOS</a></li>
                             <li><a href="<?php echo home_url("galeria"); ?> " class="hvr-underline-from-center"><span class="icon-earth"></span>GALERIA</a></li>
@@ -149,7 +149,7 @@
                             <span class="glyphicon glyphicon-list"></span>
                         </div>
                     </div>
-                <div class=" hidden-lg hidden-md sin-padding">
+                <div class="fondo-res20 hidden-lg hidden-md sin-padding">
                     <nav>
                         <ul>
                             <li><a href="<?php echo home_url("home"); ?>"><span class="icon-house"></span>INICIO</a></li>
@@ -159,7 +159,7 @@
                             <li><a href="<?php echo home_url("descargas"); ?>"><span class="icon-mail"></span>DESCARGAS</a></li>
                             <li> <a  href="<?php the_field('cuenta-facebook');?>"  target="_blank" class=""><i class="ico fa fa-facebook-square"></i></a></li>
                             <li><a href="<?php the_field('cuenta-twitter');?>" target="_blank" class=""><i class="ico fa fa-twitter-square"></i></a></li>
-                            <li><a href="" class="regi"><i class=" ico fa fa-user"></i></a></li>
+                            <li><a href="" class="regi"><i class="ico fa fa-user"></i></a></li>
                             <li>
                                  <form role="search" method="get" id="searchform" class="searchform" action="<?php echo home_url(""); ?> ">
    <div>

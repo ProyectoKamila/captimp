@@ -113,6 +113,11 @@
                            </div>
                            <?php } ?>
                         </div>
+                    <div class="col-xs-12">
+                        <div class="pk-enlace">
+                            <a href="http://proyectokamila.com/" target="_blank">Desarrollado Por Proyecto Kamila</a>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
