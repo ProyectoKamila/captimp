@@ -2,7 +2,7 @@
     <?php if( $categoria != null){?>
         <?php $pagename = query_posts(array('post_type'=>'portada','sesion'=>$categoria,'posts_per_page'=>3)); ?>
     <?php if(!empty($pagename)) {?>
-        <div class="container-fluid sli sin-padding">
+        <div class="container sli sin-padding">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 alto-slider">
                 <ul id="slider1">

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>captimpm</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="<?php bloginfo("template_url");?>/scripts/min.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- Latest compiled and minified JavaScript -->
@@ -22,8 +22,12 @@
             console.log(scroll);
             if(scroll > 80){
                 $(".menbrete").css("margin-top", "-124px");
+                $(".cl-menu ul li").css("background","#6E9BCA");
+                $(".cl-menu ul li a").css("color","#FFF");
             }else{
                 $(".menbrete").css("margin-top", "-0px");
+                $(".cl-menu ul li").css("background","#FFF");
+                $(".cl-menu ul li a").css("color","#6E9BCA");
             }
         });
     </script>
@@ -31,7 +35,7 @@
 <body>
   
     <header>
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="fixed">
                  <div class="col-xs-12">
