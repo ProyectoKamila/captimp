@@ -112,20 +112,21 @@
                        <?php } ?>
                          <div class="col-lg-4 col-md-6 sin-padding">
                              <div class="col-lg-12 col-md-12">
-                                  <a href="" class="regi"><i class=" ico fa fa-user"></i></a>
+                                  <a href="http://www.captimpmupel.com.ve/sistema/" target="_blank" class="regi"><i class=" ico fa fa-user"></i></a>
                              </div>
                              <div class="clearfix"></div>
                              <div class="marco3 col-lg-12"></div>
-                             <div class="fon3 col-lg-12 col-md-12 ">
-                                 <form>
-                                     USUARIO:
-                                     <input type="text" class="inp" name="user"/>
-                                     CLAVE:
-                                     <input type="password" class="inp" name=""/>
-                                     <a href="" class="olvidaste">OLVIDASTE TU CLAVE?</a>
-                                     <a class="boto btn btn-default " href="<?php echo home_url("registro"); ?> " >Registro</a>
-                                     <input type="submit" class="envi" value="Entrar"/>
-                                 </form>
+                             <div class="col-lg-12 col-md-12 ">
+                                 <!--<form>-->
+                                 <!--fon3-->
+                                 <!--    USUARIO:-->
+                                 <!--    <input type="text" class="inp" name="user"/>-->
+                                 <!--    CLAVE:-->
+                                 <!--    <input type="password" class="inp" name=""/>-->
+                                 <!--    <a href="" class="olvidaste">OLVIDASTE TU CLAVE?</a>-->
+                                 <!--    <a class="boto btn btn-default " href="<?php echo home_url("registro"); ?> " >Registro</a>-->
+                                 <!--    <input type="submit" class="envi" value="Entrar"/>-->
+                                 <!--</form>-->
                              </div>
                          </div>
                     </div>
